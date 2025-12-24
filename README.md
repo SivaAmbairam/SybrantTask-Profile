@@ -39,20 +39,14 @@ git clone https://github.com/yourusername/profiles-api.git
 cd profiles-api
 ```
 
-### 2. Create Virtual Environment (Optional but Recommended)
 
-```bash
-python -m venv venv
-source venv/bin/activate
-```
-
-### 3. Install Dependencies
+### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Setup Database
+### 3. Setup Database
 
 Run the database setup script to create the database and insert records:
 
@@ -63,9 +57,9 @@ python database.py
 This will:
 - Create `profiles.db` SQLite database
 - Create the `profiles` table
-- Insert 100 records from `Sample_Input.xlsx`
+- Insert 111 records from `Sample_Input.xlsx`
 
-### 5. Run the API
+### 4. Run the API
 
 ```bash
 python app.py
